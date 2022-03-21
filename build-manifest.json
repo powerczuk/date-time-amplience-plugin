@@ -1,0 +1,223 @@
+{
+  "inputs": {
+    "global.css": {
+      "bytes": 607,
+      "imports": []
+    },
+    "dist/App.svelte.css": {
+      "bytes": 793,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-34bfe0a8.js": {
+      "bytes": 19059,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 585,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-34bfe0a8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/dc-extensions-sdk.js": {
+      "bytes": 70968,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/transition.js": {
+      "bytes": 954,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-34bfe0a8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/utils.js": {
+      "bytes": 292,
+      "imports": []
+    },
+    "dist/components/Calendar.svelte.css": {
+      "bytes": 1703,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte.js": {
+      "bytes": 108,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-34bfe0a8.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Calendar.svelte.js": {
+      "bytes": 9964,
+      "imports": [
+        {
+          "path": "dist/components/Calendar.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/utils.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/components/Clock.svelte.css": {
+      "bytes": 1073,
+      "imports": []
+    },
+    "dist/components/Clock.svelte.js": {
+      "bytes": 34360,
+      "imports": [
+        {
+          "path": "dist/components/Clock.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/utils.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.svelte.js": {
+      "bytes": 15765,
+      "imports": [
+        {
+          "path": "dist/App.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/dc-extensions-sdk.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/utils.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Calendar.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/components/Clock.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/main.js": {
+      "bytes": 108,
+      "imports": [
+        {
+          "path": "dist/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/global.css": {
+      "imports": [],
+      "entryPoint": "global.css",
+      "inputs": {
+        "global.css": {
+          "bytesInOutput": 629
+        }
+      },
+      "bytes": 646
+    },
+    "../~~bundle~~/dist/main.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "dist/main.js",
+      "inputs": {
+        "dist/App.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-34bfe0a8.js": {
+          "bytesInOutput": 14655
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/dc-extensions-sdk.js": {
+          "bytesInOutput": 46726
+        },
+        "_snowpack/pkg/svelte/transition.js": {
+          "bytesInOutput": 767
+        },
+        "dist/utils.js": {
+          "bytesInOutput": 277
+        },
+        "dist/components/Calendar.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte.js": {
+          "bytesInOutput": 0
+        },
+        "dist/components/Calendar.svelte.js": {
+          "bytesInOutput": 10018
+        },
+        "dist/components/Clock.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "dist/components/Clock.svelte.js": {
+          "bytesInOutput": 34943
+        },
+        "dist/App.svelte.js": {
+          "bytesInOutput": 15880
+        },
+        "dist/main.js": {
+          "bytesInOutput": 87
+        }
+      },
+      "bytes": 123644
+    },
+    "../~~bundle~~/dist/main.css": {
+      "imports": [],
+      "inputs": {
+        "dist/App.svelte.css": {
+          "bytesInOutput": 863
+        },
+        "dist/components/Calendar.svelte.css": {
+          "bytesInOutput": 1922
+        },
+        "dist/components/Clock.svelte.css": {
+          "bytesInOutput": 1173
+        }
+      },
+      "bytes": 4067
+    }
+  }
+}
