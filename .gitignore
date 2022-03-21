@@ -1,7 +1,9 @@
 build
 .vscode
+.idea
 public/build
 node_modules
 .DS_Store
 *.key
 *.crt
+*.cert

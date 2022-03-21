@@ -155,7 +155,11 @@
   function processStringOutput() {
     switch (format) {
       case 'date-time':
-        return dateString(date, time);
+        return dateString(
+          date,
+          time,
+          offsetMinutesToString(getNegativeLocalOffset())
+        );
       case 'date':
         return date;
       case 'time':
