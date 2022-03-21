@@ -18,8 +18,9 @@
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "svelte": "^3.24.0",
-    "dc-extensions-sdk": "^1.1.0"
+    "dc-extensions-sdk": "^1.1.0",
+    "gh-pages": "^3.2.3",
+    "svelte": "^3.24.0"
   },
   "devDependencies": {
     "@snowpack/app-scripts-svelte": "^2.0.0",
