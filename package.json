@@ -13,7 +13,9 @@
     "build": "snowpack build",
     "test": "jest",
     "lint": "prettier --check \"src/**/*.{js,svelte,html}\" && eslint \"src/**/*.{js,svelte}\"",
-    "format": "prettier --write \"src/**/*.{js,svelte,html}\" && eslint --fix \"src/**/*.{js,svelte}\""
+    "format": "prettier --write \"src/**/*.{js,svelte,html}\" && eslint --fix \"src/**/*.{js,svelte}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "svelte": "^3.24.0",
