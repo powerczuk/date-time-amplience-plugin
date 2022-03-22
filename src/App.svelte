@@ -254,3 +254,55 @@
   {/if}
   <div class="clear" />
 </main>
+
+<style>
+  img {
+    height: 2em;
+  }
+
+  p {
+    text-decoration: underline;
+    height: 2em;
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+  }
+
+  img {
+    padding-right: 0.25em;
+  }
+
+  img,
+  p {
+    float: left;
+  }
+
+  .date,
+  .time,
+  .label {
+    display: inline-block;
+    margin: 0.25em;
+    cursor: pointer;
+  }
+
+  .date p,
+  .time p {
+    color: #999;
+  }
+
+  p.active {
+    color: #333;
+  }
+  .label p {
+    text-decoration: none;
+    cursor: default;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  main {
+    overflow: hidden;
+  }
+</style>
