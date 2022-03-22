@@ -155,16 +155,6 @@
       },
       "bytes": 646
     },
-    "../~~bundle~~/dist/App.svelte.css": {
-      "imports": [],
-      "entryPoint": "dist/App.svelte.css",
-      "inputs": {
-        "dist/App.svelte.css": {
-          "bytesInOutput": 863
-        }
-      },
-      "bytes": 889
-    },
     "../~~bundle~~/dist/main.js": {
       "imports": [],
       "exports": [
