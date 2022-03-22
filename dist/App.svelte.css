@@ -1,0 +1,42 @@
+/* dist/App.svelte.css */
+img.svelte-13ya0uw.svelte-13ya0uw {
+  height: 2em;
+}
+p.svelte-13ya0uw.svelte-13ya0uw {
+  text-decoration: underline;
+  height: 2em;
+  line-height: 2em;
+  padding: 0;
+  margin: 0;
+}
+img.svelte-13ya0uw.svelte-13ya0uw {
+  padding-right: 0.25em;
+}
+img.svelte-13ya0uw.svelte-13ya0uw,
+p.svelte-13ya0uw.svelte-13ya0uw {
+  float: left;
+}
+.date.svelte-13ya0uw.svelte-13ya0uw,
+.time.svelte-13ya0uw.svelte-13ya0uw,
+.label.svelte-13ya0uw.svelte-13ya0uw {
+  display: inline-block;
+  margin: 0.25em;
+  cursor: pointer;
+}
+.date.svelte-13ya0uw p.svelte-13ya0uw,
+.time.svelte-13ya0uw p.svelte-13ya0uw {
+  color: #999;
+}
+p.active.svelte-13ya0uw.svelte-13ya0uw {
+  color: #333;
+}
+.label.svelte-13ya0uw p.svelte-13ya0uw {
+  text-decoration: none;
+  cursor: default;
+}
+.clear.svelte-13ya0uw.svelte-13ya0uw {
+  clear: both;
+}
+main.svelte-13ya0uw.svelte-13ya0uw {
+  overflow: hidden;
+}
